@@ -132,11 +132,11 @@ textarea {
    }
 
    img {
-
+    width: 100%;
    }
 
    figure {
-
+    margin: 0;
    }
 
    address {
@@ -239,6 +239,10 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url(../Assets/jake-melara-30679-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
 }
 
 .hero-area h1 {
@@ -297,6 +301,9 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../Assets/rawpixel-800820-unsplash1.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .features h2 {
@@ -501,7 +508,7 @@ input[type=button] {
   }
 
   header nav {
-    width:20%;
+    width: 20%;
   }
 
   header nav ul {
