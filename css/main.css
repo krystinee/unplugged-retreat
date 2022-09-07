@@ -650,6 +650,11 @@ input[type=button] {
     font-size: 1.5em;
   }
 
+.map figure {
+  padding-bottom: 45.5%;
+}
+
+
 /*=========FAQ Page=======*/
 
 .faq .content-wrapper {
@@ -749,6 +754,10 @@ input[type=button] {
 
   .contact-content h4 {
     font-size: 1.875em;
+  }
+
+  .map figure {
+    padding-bottom: 37.5%;
   }
 
   /*=======FAQ Page======*/
