@@ -90,6 +90,7 @@ textarea {
 
    html {
     font-size: 16px;
+    line-height: 1.4;
    }
 
    body{
@@ -103,7 +104,6 @@ textarea {
    ol {
     list-style-type: none;
     margin: 0;
-
    }
 
    a {
@@ -150,6 +150,11 @@ textarea {
     width: 90%;
     margin: 50px 0;
   }
+
+  div, main, section, article {
+    display: block;
+  }
+
  /*--------Base Header - Footer Styles------*/
 header, footer {
   display: flex;
@@ -169,6 +174,14 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .header-divider {
@@ -193,6 +206,10 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+}
+
+li {
+  display: list-item;
 }
 
 header nav ul li {
@@ -329,6 +346,12 @@ input[type=button] {
   margin: 0;
   text-align: center;
 }
+
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 
 /*Reviews*/
 
@@ -556,6 +579,10 @@ input[type=button] {
     margin: 0;
   }
 
+  .hero-area {
+    min-height: 600px;
+  }
+
   /*Aside*/
   aside .content-wrapper {
     margin: 50px 0;
@@ -729,7 +756,7 @@ input[type=button] {
 
   /*Hero*/
   .hero-area h1 {
-    width: 60%;
+    width: 80%;
     font-size: 3.75em;
   }
 
