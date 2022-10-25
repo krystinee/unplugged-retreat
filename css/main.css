@@ -176,6 +176,10 @@ header .content-wrapper {
   margin: 0;
 }
 
+header .content-wrapper ul {
+  padding: 0px;
+}
+
 header figure {
   width: 60%;
   display: flex;
@@ -567,6 +571,7 @@ input[type=button] {
   header nav ul {
     justify-content: space-between;
   }
+
   .header-divider {
     display: none;
   }
